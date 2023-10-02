@@ -1,0 +1,323 @@
+body {
+  width: 1366px;
+  height: 4610px;
+  color: #122947;
+  background-color: #f8f8f6;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7,
+.container8,
+main.part1 {
+  display: grid;
+}
+
+/* Стили для Container 1 / Part 1 */
+
+.container1 {
+  height: 650px;
+  width: 100%;
+  background-image: url("../images/rectangle_35.png");
+  grid-template: 131px 1fr 97px / 168px 330px 370px 330px 168px;
+}
+
+header {
+  grid-row: 1/2;
+  grid-column: 1/6;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #122947;
+}
+
+a:active {
+  color: #122947;
+}
+
+a:visited {
+  color: #122947;
+}
+
+div.header_container {
+  width: 1170px;
+  height: 21px;
+  margin: 40px 98px 70px 98px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.header_menu {
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.header_titles {
+  width: 255px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_links {
+  font-size: 16px;
+}
+
+div.header_icons_div {
+  width: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main.part1 {
+  grid-row: 2/4;
+  grid-column: 1/6;
+  height: 519px;
+  grid-template: 422px 97px / 168px 330px 370px 330px 168px;
+}
+
+.part1 .section1 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.part1 .section2 {
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+
+.part1 .section3 {
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+
+.part1 .section4 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.part1 .section5 {
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+
+.part1 .section4 p,
+.part1 .section5 p {
+  font-size: 16px;
+  margin: 12px 0px 0px 0px;
+}
+
+.part1 .section4 a,
+.part1 .section5 a {
+  height: 12px;
+}
+
+.part1 .section4 img.arrow,
+.part1 .section5 img.arrow {
+  width: 26px;
+  height: 12px;
+  margin: 15px 0px 0px 0px;
+}
+
+.part1 .section4,
+.part1 .section5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.part1 .section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.part1 h1 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 58px;
+  font-style: normal;
+  line-height: normal;
+  margin: 60px 55px 15px 55px;
+}
+
+.part1 .section2 p,
+.header_links,
+.part1 .section2 button a,
+.part1 .section4 p,
+.part1 .section5 p {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
+}
+
+.part1 .section2 button a,
+.part1 .section4 p,
+.part1 .section5 p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.part1 .section2 p {
+  font-size: 18px;
+  width: 274px;
+  height: 40px;
+  text-align: center;
+  margin: 0px 48px 40px 48px;
+  line-height: 145%;
+}
+
+.part1 .section2 button {
+  width: 141px;
+  height: 41px;
+  background-color: #ffffff00;
+  border: 1px solid #b3bac1;
+  border-radius: 2px;
+}
+
+/* Стили для Container 2 / Part 2 */
+
+.container2 {
+  height: 629px;
+  width: 100%;
+  grid-template: 140px 312px 177px / 98px 300px 230px 30px 230px 30px 230px 30px 188px;
+}
+
+.container2 .section1 {
+  grid-area: 2/2/3/3;
+}
+
+.container2 .section2 {
+  grid-area: 2/3/3/4;
+  background-image: url("../images/cream_1.png");
+}
+
+.container2 .section3 {
+  grid-area: 2/5/3/6;
+  background-image: url("../images/cream_2.png");
+}
+
+.container2 .section4 {
+  grid-area: 2/7/3/8;
+  background-image: url("../images/cream_3.png");
+}
+
+.container2 .section5 {
+  grid-area: 2/9/3/10;
+  background-image: url("../images/cream_4.png");
+}
+
+.container2 .section6 {
+  grid-area: 3/9/4/10;
+}
+
+.container2 .section1,
+.container2 .section2,
+.container2 .section3,
+.container2 .section4,
+.container2 .section5,
+.container2 .section6 {
+  display: flex;
+}
+
+.container2 .section1,
+.container2 .section2,
+.container2 .section3,
+.container2 .section4,
+.container2 .section5 {
+  flex-direction: column;
+}
+
+.container2 .section1 {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container2 .section2,
+.container2 .section3,
+.container2 .section4,
+.container2 .section5 {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h2.bestsellers {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  font-style: normal;
+  margin: 0px 0px 25px 0px;
+}
+
+p.bestsellers {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 145%;
+  width: 214px;
+  margin: 0px 0px 35px 0px;
+}
+
+button.bestsellers {
+  width: 155px;
+  height: 41px;
+  background-color: #ffffff00;
+  border: 1px solid #b3bac1;
+  border-radius: 2px;
+}
+
+button.bestsellers a.bestsellers {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+p.title_part2 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  margin: 0px 0px 0px 0px;
+}
+
+p.subtitle_part2 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 145%;
+  color: #9a9da0;
+  margin: 3px 0px 0px 0px;
+}
+
+a.details_part2 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 145%;
+  border-bottom: 1px solid #122947;
+  margin: 11px 0px 25px 0px;
+}
+
+.container2 .section6 img.arrow {
+  width: 26px;
+  height: 12px;
+}
+
+.container2 .section6 a {
+  height: 12px;
+}
+
+.container2 .section6 img.arrow1 {
+  margin: 25px 32px 0px 6px;
+}
+
+.container2 .section6 img.arrow2 {
+  margin: 25px 0px 0px 0px;
+}

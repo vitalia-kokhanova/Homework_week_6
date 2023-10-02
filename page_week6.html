@@ -6,10 +6,11 @@
     <title>MAROON</title>
     <link
       rel="shortcut icon"
-      href="./assets/images/icon.png"
+      href="./assets/images/shortcuticon.png"
       type="image/png"
     />
     <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/page_week6_style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,187 +23,6 @@
       href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        width: 1366px;
-        height: 4610px;
-        color: #122947;
-      }
-
-      .container1,
-      main,
-      .container2,
-      .container3,
-      .container4,
-      .container5,
-      .container6,
-      .container7,
-      .container8 {
-        display: grid;
-      }
-
-      .container1 {
-        height: 650px;
-        width: 100%;
-        background-image: url("./assets/images/rectangle_35.png");
-        grid-template: 131px 1fr 97px / 168px 330px 370px 330px 168px;
-      }
-
-      header {
-        grid-row: 1/2;
-        grid-column: 1/6;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      a:link {
-        color: #122947;
-      }
-
-      a:active {
-        color: #122947;
-      }
-
-      a:visited {
-        color: #122947;
-      }
-
-      div.header_container {
-        width: 1170px;
-        height: 21px;
-        margin: 40px 98px 70px 98px;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      nav.header_menu {
-        width: 370px;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      div.header_titles {
-        width: 255px;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      .header_links {
-        font-size: 16px;
-      }
-
-      div.header_icons_div {
-        width: 64px;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      main {
-        grid-row: 2/4;
-        grid-column: 1/6;
-        height: 519px;
-        grid-template: 422px 97px / 168px 330px 370px 330px 168px;
-      }
-
-      .section1 {
-        grid-row: 1/2;
-        grid-column: 2/3;
-      }
-
-      .section2 {
-        grid-row: 1/2;
-        grid-column: 3/4;
-      }
-
-      .section3 {
-        grid-row: 1/2;
-        grid-column: 4/5;
-      }
-
-      .section4 {
-        grid-row: 2/3;
-        grid-column: 2/3;
-      }
-
-      .section5 {
-        grid-row: 2/3;
-        grid-column: 4/5;
-      }
-
-      .section4 p,
-      .section5 p {
-        font-size: 16px;
-        margin: 12px 0px 0px 0px;
-      }
-
-      .section4 a,
-      .section5 a {
-        height: 12px;
-      }
-
-      .section4 img.arrow,
-      .section5 img.arrow {
-        width: 26px;
-        height: 12px;
-        margin: 15px 0px 0px 0px;
-      }
-
-      .section4,
-      .section5 {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-      }
-
-      .section2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-
-      h1 {
-        font-family: "Raleway", Arial, Helvetica, sans-serif;
-        font-weight: 500;
-        font-size: 58px;
-        font-style: normal;
-        line-height: normal;
-        margin: 60px 55px 15px 55px;
-      }
-
-      .section2 p,
-      .header_links,
-      .section2 button a,
-      .section4 p,
-      .section5 p {
-        font-family: "M PLUS 1p", sans-serif;
-        font-weight: 300;
-      }
-
-      .section2 button a,
-      .section4 p,
-      .section5 p {
-        font-weight: 900;
-        font-size: 16px;
-      }
-
-      .section2 p {
-        font-size: 18px;
-        width: 274px;
-        height: 40px;
-        text-align: center;
-        margin: 0px 48px 40px 48px;
-      }
-
-      .section2 button {
-        width: 141px;
-        height: 41px;
-        background-color: #ffffff00;
-        border: 1px solid #b3bac1;
-        border-radius: 2px;
-      }
-    </style>
   </head>
   <body>
     <div class="container1">
@@ -234,7 +54,7 @@
           </nav>
         </div>
       </header>
-      <main>
+      <main class="part1">
         <section class="section1">
           <img
             class="picture1"
@@ -260,18 +80,69 @@
         <section class="section4">
           <p>Уход для лица</p>
           <a href=""
-            ><img class="arrow" src="./assets/images/arrow.png" alt="Стрелочка"
+            ><img
+              class="arrow"
+              src="./assets/images/arrow.png"
+              alt="Стрелочка вправо"
           /></a>
         </section>
         <section class="section5">
           <p>Уход для тела</p>
           <a href=""
-            ><img class="arrow" src="./assets/images/arrow.png" alt="Стрелочка"
+            ><img
+              class="arrow"
+              src="./assets/images/arrow.png"
+              alt="Стрелочка вправо"
           /></a>
         </section>
       </main>
     </div>
-    <div class="container2"></div>
+    <div class="container2">
+      <section class="section1">
+        <div class="bestsellers_box"></div>
+        <h2 class="bestsellers">Бестселлеры</h2>
+        <p class="bestsellers">
+          Легендарные продукты, завоевавшие любовь наших клиентов
+        </p>
+        <button class="bestsellers">
+          <a class="bestsellers" href="">Смотреть все</a>
+        </button>
+      </section>
+      <section class="section2">
+        <p class="title_part2">High</p>
+        <p class="subtitle_part2">крем для лица</p>
+        <a class="details_part2" href="">Подробнее</a>
+      </section>
+      <section class="section3">
+        <p class="title_part2">Rest</p>
+        <p class="subtitle_part2">минеральная пудра</p>
+        <a class="details_part2" href="">Подробнее</a>
+      </section>
+      <section class="section4">
+        <p class="title_part2">Rose</p>
+        <p class="subtitle_part2">крем для лица</p>
+        <a class="details_part2" href="">Подробнее</a>
+      </section>
+      <section class="section5">
+        <p class="title_part2">Milk</p>
+        <p class="subtitle_part2">масло для тела</p>
+        <a class="details_part2" href="">Подробнее</a>
+      </section>
+      <section class="section6">
+        <a href=""
+          ><img
+            class="arrow arrow1"
+            src="./assets/images/arrow2.png"
+            alt="Стрелочка влево"
+        /></a>
+        <a href=""
+          ><img
+            class="arrow arrow2"
+            src="./assets/images/arrow.png"
+            alt="Стрелочка вправо"
+        /></a>
+      </section>
+    </div>
     <div class="container3"></div>
     <div class="container4"></div>
     <div class="container5"></div>
