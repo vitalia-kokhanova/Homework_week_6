@@ -321,3 +321,56 @@ a.details_part2 {
 .container2 .section6 img.arrow2 {
   margin: 25px 0px 0px 0px;
 }
+
+/* Стили для Container 3 / Part 3 */
+
+.container3 {
+  height: 400px;
+  width: 100%;
+  grid-template: 400px / 798px 1fr;
+  background-image: url("../images/banner2.png");
+}
+
+.container3 .section1 {
+  grid-area: 1/2/2/3;
+  display: flex;
+  align-items: center;
+}
+
+.spring_box {
+  width: 284px;
+}
+
+h2.spring {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0px 0px 20px 0px;
+}
+
+p.spring {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 145%;
+  width: 270px;
+  margin: 0px 0px 35px 0px;
+}
+
+button.spring {
+  width: 141px;
+  height: 41px;
+  background-color: #ffffff00;
+  border: 1px solid #b3bac1;
+  border-radius: 2px;
+}
+
+button.spring a.spring {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Стили для Container 4 / Part 4 */
