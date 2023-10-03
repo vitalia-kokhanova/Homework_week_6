@@ -20,6 +20,25 @@ main.part1 {
 
 /* Стили для Container 1 / Part 1 */
 
+div.header_container,
+nav.header_menu,
+div.header_titles,
+div.header_icons_div,
+.part1 .section4,
+.part1 .section5,
+.part1 .section2 {
+  display: flex;
+}
+
+div.header_container,
+nav.header_menu,
+div.header_titles,
+div.header_icons_div,
+.part1 .section4,
+.part1 .section5 {
+  justify-content: space-between;
+}
+
 .container1 {
   height: 650px;
   width: 100%;
@@ -36,14 +55,8 @@ a {
   text-decoration: none;
 }
 
-a:link {
-  color: #122947;
-}
-
-a:active {
-  color: #122947;
-}
-
+a:link,
+a:active,
 a:visited {
   color: #122947;
 }
@@ -52,30 +65,25 @@ div.header_container {
   width: 1170px;
   height: 21px;
   margin: 40px 98px 70px 98px;
-  display: flex;
-  justify-content: space-between;
 }
 
 nav.header_menu {
   width: 370px;
-  display: flex;
-  justify-content: space-between;
 }
 
 div.header_titles {
   width: 255px;
-  display: flex;
-  justify-content: space-between;
 }
 
-.header_links {
+.header_links,
+.part1 .section4 p,
+.part1 .section5 p,
+.part1 .section2 button a {
   font-size: 16px;
 }
 
 div.header_icons_div {
   width: 64px;
-  display: flex;
-  justify-content: space-between;
 }
 
 main.part1 {
@@ -112,7 +120,6 @@ main.part1 {
 
 .part1 .section4 p,
 .part1 .section5 p {
-  font-size: 16px;
   margin: 12px 0px 0px 0px;
 }
 
@@ -130,13 +137,10 @@ main.part1 {
 
 .part1 .section4,
 .part1 .section5 {
-  display: flex;
-  justify-content: space-between;
   align-items: flex-start;
 }
 
 .part1 .section2 {
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -150,8 +154,8 @@ main.part1 {
   margin: 60px 55px 15px 55px;
 }
 
-.part1 .section2 p,
 .header_links,
+.part1 .section2 p,
 .part1 .section2 button a,
 .part1 .section4 p,
 .part1 .section5 p {
@@ -163,7 +167,6 @@ main.part1 {
 .part1 .section4 p,
 .part1 .section5 p {
   font-weight: 500;
-  font-size: 16px;
 }
 
 .part1 .section2 p {
@@ -249,19 +252,44 @@ main.part1 {
   justify-content: flex-end;
 }
 
-h2.bestsellers {
+h2.bestsellers,
+p.title_part2 {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+p.bestsellers,
+button.bestsellers a.bestsellers,
+p.subtitle_part2,
+a.details_part2 {
+  font-family: "M PLUS 1p", sans-serif;
+}
+
+p.bestsellers,
+p.subtitle_part2,
+a.details_part2 {
+  line-height: 145%;
+}
+
+h2.bestsellers,
+button.bestsellers a.bestsellers,
+p.title_part2 {
   font-weight: 500;
+}
+
+p.bestsellers,
+p.subtitle_part2,
+a.details_part2 {
+  font-weight: 300;
+}
+
+h2.bestsellers {
   font-size: 32px;
   font-style: normal;
   margin: 0px 0px 25px 0px;
 }
 
 p.bestsellers {
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 300;
   font-size: 18px;
-  line-height: 145%;
   width: 214px;
   margin: 0px 0px 35px 0px;
 }
@@ -275,33 +303,23 @@ button.bestsellers {
 }
 
 button.bestsellers a.bestsellers {
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 500;
   font-size: 16px;
 }
 
 p.title_part2 {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 500;
   font-size: 16px;
   font-style: normal;
   margin: 0px 0px 0px 0px;
 }
 
 p.subtitle_part2 {
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 300;
   font-size: 13px;
-  line-height: 145%;
   color: #9a9da0;
   margin: 3px 0px 0px 0px;
 }
 
 a.details_part2 {
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 300;
   font-size: 13px;
-  line-height: 145%;
   border-bottom: 1px solid #122947;
   margin: 11px 0px 25px 0px;
 }
@@ -342,9 +360,18 @@ a.details_part2 {
   width: 284px;
 }
 
+p.spring,
+button.spring a.spring {
+  font-family: "M PLUS 1p", sans-serif;
+}
+
+h2.spring,
+button.spring a.spring {
+  font-weight: 500;
+}
+
 h2.spring {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 500;
   font-size: 32px;
   font-style: normal;
   line-height: 125%;
@@ -352,7 +379,6 @@ h2.spring {
 }
 
 p.spring {
-  font-family: "M PLUS 1p", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 145%;
@@ -369,8 +395,6 @@ button.spring {
 }
 
 button.spring a.spring {
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 500;
   font-size: 16px;
 }
 
@@ -424,15 +448,23 @@ div.care_box {
 
 h2.care {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 500;
   font-size: 32px;
   font-style: normal;
   line-height: 125%;
   margin: 0px 0px 30px 0px;
 }
 
-p.care {
+p.care,
+button.care a.care {
   font-family: "M PLUS 1p", sans-serif;
+}
+
+h2.care,
+button.care a.care {
+  font-weight: 500;
+}
+
+p.care {
   font-weight: 300;
   font-size: 18px;
   line-height: 145%;
@@ -456,8 +488,6 @@ button.care {
 }
 
 button.care a.care {
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 500;
   font-size: 16px;
 }
 
@@ -546,15 +576,23 @@ button.history a.history {
 
 h2.follow {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 500;
   font-size: 32px;
   font-style: normal;
   line-height: 125%;
   margin: 0px 0px 18px 0px;
 }
 
-p.follow {
+h2.follow,
+button.follow a.follow {
+  font-weight: 500;
+}
+
+p.follow,
+button.follow a.follow {
   font-family: "M PLUS 1p", sans-serif;
+}
+
+p.follow {
   font-weight: 300;
   font-size: 18px;
   line-height: 145%;
@@ -571,8 +609,6 @@ button.follow {
 }
 
 button.follow a.follow {
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 500;
   font-size: 16px;
 }
 
@@ -616,10 +652,14 @@ div.map {
   display: block;
 }
 
+div.contacts,
+div.social_media {
+  display: flex;
+}
+
 div.contacts {
   grid-row: 1;
   grid-column: 2/3;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -634,28 +674,30 @@ h2.contacts {
   margin: 0px 0px 28px 0px;
 }
 
-div.contacts p.title {
+div.contacts p.title,
+div.contacts p.text1,
+div.contacts p.text2,
+div.contacts p.text3 {
   font-family: "M PLUS 1p", sans-serif;
-  font-weight: 500;
   font-size: 18px;
   line-height: 145%;
+}
+
+div.contacts p.title {
+  font-weight: 500;
   margin: 0px 0px 8px 0px;
 }
 
 div.contacts p.text1,
 div.contacts p.text2,
 div.contacts p.text3 {
-  font-family: "M PLUS 1p", sans-serif;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 145%;
   margin: 0px 0px 28px 0px;
 }
 
 div.social_media {
   width: 112px;
   height: 22px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -669,10 +711,32 @@ div.social_media {
   background-color: #f4f1ed;
 }
 
+.footer_container1,
+nav.footer_menu,
+div.footer_titles,
+div.footer_icons_div,
+.footer_container2,
+div.first_box {
+  display: flex;
+}
+
+nav.footer_menu,
+div.footer_titles,
+div.footer_icons_div,
+.footer_container2 {
+  justify-content: space-between;
+}
+
+.footer_container1,
+div.footer_titles,
+div.footer_icons_div,
+.footer_container2,
+div.first_box {
+  align-items: center;
+}
+
 .footer_container1 {
   grid-area: 1/1/2/2;
-  display: flex;
-  align-items: center;
   border-bottom: 1px solid #d1d1d1;
 }
 
@@ -684,27 +748,25 @@ img.footer_logo {
 
 nav.footer_menu {
   width: 970px;
-  display: flex;
-  justify-content: space-between;
 }
 
 div.footer_titles {
   width: 382px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+
+.footer_links,
+.footer_container2 p,
+.footer_container2 a {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
 }
 
 .footer_links {
   font-size: 16px;
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 300;
 }
+
 div.footer_icons_div {
   width: 112px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .footer_container2 {
@@ -712,25 +774,18 @@ div.footer_icons_div {
   width: 1170px;
   justify-self: center;
   align-self: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .footer_container2 p,
 .footer_container2 a {
   font-size: 12px;
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 300;
   color: #959595;
   height: 10px;
 }
 
 div.first_box {
   width: 250px;
-  display: flex;
   justify-content: flex-start;
-  align-items: center;
 }
 .footer_container2 p.text1 {
   margin: 0px 5px 0px 0px;
