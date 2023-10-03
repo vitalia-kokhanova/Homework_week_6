@@ -575,3 +575,169 @@ button.follow a.follow {
   font-weight: 500;
   font-size: 16px;
 }
+
+/* Стили для Container 7 / Part 7 */
+
+.container7 {
+  height: 694px;
+  width: 100%;
+  grid-template: 554px 140px / 98px 1170px 98px;
+}
+
+.container7 .address {
+  grid-area: 1/2/2/3;
+  display: grid;
+  position: relative;
+  grid-template-columns: 500px 170px 500px;
+  font-style: normal;
+}
+
+div.beige_square2 {
+  width: 670px;
+  height: 554px;
+  background-color: #f4f1ed;
+  grid-row: 1;
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 100px 570px;
+}
+
+div.map {
+  width: 670px;
+  height: 422px;
+  grid-row: 1;
+  grid-column: 2/4;
+  padding-top: 66px;
+  z-index: 1;
+}
+
+.map img {
+  width: 100%;
+  display: block;
+}
+
+div.contacts {
+  grid-row: 1;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h2.contacts {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0px 0px 28px 0px;
+}
+
+div.contacts p.title {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 145%;
+  margin: 0px 0px 8px 0px;
+}
+
+div.contacts p.text1,
+div.contacts p.text2,
+div.contacts p.text3 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 145%;
+  margin: 0px 0px 28px 0px;
+}
+
+div.social_media {
+  width: 112px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Стили для Container 8 / Part 8 */
+
+.container8 {
+  height: 195px;
+  width: 100%;
+  grid-template-rows: 140px 54px;
+  background-color: #f4f1ed;
+}
+
+.footer_container1 {
+  grid-area: 1/1/2/2;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+img.footer_logo {
+  width: 131px;
+  height: 21px;
+  margin: 60px 69px 60px 98px;
+}
+
+nav.footer_menu {
+  width: 970px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.footer_titles {
+  width: 382px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_links {
+  font-size: 16px;
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
+}
+div.footer_icons_div {
+  width: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_container2 {
+  grid-area: 2/1/3/2;
+  width: 1170px;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_container2 p,
+.footer_container2 a {
+  font-size: 12px;
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
+  color: #959595;
+  height: 10px;
+}
+
+div.first_box {
+  width: 250px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer_container2 p.text1 {
+  margin: 0px 5px 0px 0px;
+}
+
+.footer_container2 img {
+  width: 14px;
+  height: 14px;
+  margin: 0px 5px 0px 0px;
+}
