@@ -503,3 +503,75 @@ button.history a.history {
   font-weight: 500;
   font-size: 16px;
 }
+
+/* Стили для Container 6 / Part 6 */
+
+.container6 {
+  height: 746px;
+  width: 100%;
+  grid-template: 140px 233px 233px 140px / 98px 233px 233px 233px 71px 498px;
+}
+
+.container6 .section1 {
+  grid-area: 2/2/3/3;
+  background-image: url("../images/picture1.png");
+}
+.container6 .section2 {
+  grid-area: 2/3/3/4;
+  background-image: url("../images/picture2.png");
+}
+.container6 .section3 {
+  grid-area: 2/4/3/5;
+  background-image: url("../images/picture3.png");
+}
+.container6 .section4 {
+  grid-area: 3/2/4/3;
+  background-image: url("../images/picture4.png");
+}
+.container6 .section5 {
+  grid-area: 3/3/4/4;
+  background-image: url("../images/picture5.png");
+}
+.container6 .section6 {
+  grid-area: 3/4/4/5;
+  background-image: url("../images/picture6.png");
+}
+.container6 .section7 {
+  grid-area: 2/6/4/7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h2.follow {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0px 0px 18px 0px;
+}
+
+p.follow {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 145%;
+  width: 390px;
+  margin: 0px 0px 35px 0px;
+}
+
+button.follow {
+  width: 170px;
+  height: 41px;
+  background-color: #ffffff00;
+  border: 1px solid #b3bac1;
+  border-radius: 2px;
+}
+
+button.follow a.follow {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
